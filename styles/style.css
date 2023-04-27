@@ -12,13 +12,14 @@ header{
     grid-template-columns: auto;
     background-color: #8feaf1;
     color: #000000;
-    align-content: center;
+    justify-content: center;
     padding: 1rem;
     border-radius: 1rem;
 }
 
 .image   {
-    display: grid;
+    display: block;
+    margin-left: 25%;
     box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
 }
 
