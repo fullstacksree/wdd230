@@ -6,43 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 230: Assignment Portal</title>
     <meta name="description" content="Assignment portal for Sree Ranganath Koonisetti in WDD 230: Web Frontend Development at BYU-Idaho">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Sree Ranganath Koonisetti</h1>
-        <img class="profile-image" src="images/profile-img-sree.jpg" alt="sree ranganath profile image">
+        <img class="image" src="images/profile-img-sree.jpg" alt="profile image" width="200" height="200">
     </header>
-    <main class="main">
+    <main>
         <h2>WDD 230: Assignment Portal</h2>
         <hr>
         <ul>
-            <li>Lesson 01:<a href="index.html">Course Assignments</a></li>
-            <li>Lesson 02:<a href="Title">Title</a></li>
-            <li>Lesson 03:<a href="Title">Title</a></li>
-            <li>Lesson 04:<a href="Title">Title</a></li>
-            <li>Lesson 05:<a href="Title">Title</a></li>
-            <li>Lesson 06:<a href="Title">Title</a></li>
-            <li>Lesson 07:<a href="Title">Title</a></li>
-            <li>Lesson 08:<a href="Title">Title</a></li>
-            <li>Lesson 09:<a href="Title">Title</a></li>
-            <li>Lesson 10:<a href="Title">Title</a></li>
-            <li>Lesson 11:<a href="Title">Title</a></li>            
+            <li>Lesson 02:<a href="#">Title</a></li>
+            <li>Lesson 03:<a href="#">Title</a></li>
+            <li>Lesson 04:<a href="#">Title</a></li>
+            <li>Lesson 05:<a href="#">Title</a></li>
+            <li>Lesson 06:<a href="#">Title</a></li>
+            <li>Lesson 07:<a href="#">Title</a></li>
+            <li>Lesson 08:<a href="#">Title</a></li>
+            <li>Lesson 09:<a href="#">Title</a></li>
+            <li>Lesson 10:<a href="#">Title</a></li>
+            <li>Lesson 11:<a href="#">Title</a></li>            
         </ul>
     </main>
-    <footer class="footer">
-        <p>&copy; 2023 | Sree Ranganath Koonisetti | Visakhapatnam | <a href = "https://www.byui.edu/online">BYU-I Online Learning</a></p>
-        <p> <span id = "lastModified"></span></p>
-        <script src="scripts/currentyearscript.js"></script>
-        <script src="scripts/lastModified.js"></script>
-    </footer>
-    <script src="js/last-modified.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>WebFont.load({
-        google:{
-            families: ['Roboto']
-        }});
-    </script>    
+    <footer>
+        <div>
+            <p>&copy; <span id = "currentYear"></span> | Sree Ranganath Koonisetti | Visakhapatnam | <a href = "https://www.byui.edu/online">BYU-I Online Learning</a></p>
+        </div>
+        <div>
+            <p><span id = "lastModified"></span></p>
+        </div>
+            <script src="scripts/currentyearscript.js"></script>
+            <script src="scripts/lastModified.js"></script>
+   </footer>        
 </body>
 </html>
