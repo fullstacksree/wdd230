@@ -1,68 +1,63 @@
-/*main {
-    grid-template-columns: 1fr;
-    grid-gap: 20px 0;
-}
-main > section {
-    grid-column: 1;
-    width: 90%;
-    max-width: 450px;
-    justify-self: center;
-}
-section img {
-    max-width: 400px;
-}*/
-
 * {
     font-family: 'PT+Serif', sans-serif;
 }
-
 html {
     background-color: lightcyan;
 }
-
-body {
-    max-width: 900px;
-    margin: 0 auto;
+header, main, footer{
+    max-width: 850px;
+    margin:0 auto;
 }
-
-header {
-    text-align: center;
+footer {
     background-color: lightskyblue;
-    border-radius: 0 0 10px 10px;
-    color: Black;
-    padding: 1em;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25px;
+}
+header {
+    margin: 16px auto;
+    text-align: center;
+    background-color: lightskyblue ;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 25px;
+    color: black
 }
 h1 {
     margin-bottom: 0.25em;
 }
 header > span {
     font-size: larger;
-    color: White;
+    color: blue;
 }
-
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    width: 100%;
     margin: 20px auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    border-color: black;
+    width: auto;
 }
-section {
-    border-radius: 10px;
-    background-color: white;
-    border: solid 1px gray;
-    overflow: hidden;
+h3{
+    font-family: 'PT+Serif', sans-serif; 
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: auto;
+    color: black;
 }
 section * {
     font-family: 'Roboto', sans-serif;
 }
-h3 {
-    margin: 0;
-    font-family: 'PT+Serif', sans-serif;
-    padding: 10px;
-    text-align: center;
-    background: lightskyblue;
-    color: Black;
+section{
+    background-color: white;
+    align-items: center;
+    padding: 1rem;
+    border-color:black;
+    border-radius: 20px;
+    border: solid 1px gray;
 }
 section > div {
     padding: 0 10px;
@@ -79,18 +74,5 @@ section img {
     display: block;
     margin: 0 auto;
     border: solid 1px gray;
-    max-width: 100%;
-}
-
-footer {
-    text-align: center;
-    background-color: lightskyblue;
-    border-radius: 10px 10px 0 0;
-    padding: 1em;
-}
-#lst-updt {
-    padding-top: 5px;
-    display: block;
-    font-size: small;
-    color: lightskyblue;
+    max-width: auto;
 }
