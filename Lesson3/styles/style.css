@@ -39,6 +39,7 @@ h1, footer{
     border-radius: 20px;
     padding: 15px;
     color: #000000;
+    margin-bottom: 20px;
 }
 img {
     /*width: calc(100% - 2px);*/
