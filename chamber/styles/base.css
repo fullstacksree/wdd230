@@ -1,0 +1,130 @@
+body{
+    background-color: #FBFBFF;
+}
+
+main, header, footer, section, nav, a{
+    max-width: 960px;
+    max-height: min-content;
+    margin: 0 auto;
+    font-family: 'Playfair', sans-serif;
+    border-radius: 20px;
+}
+
+nav a:hover {
+	background-color: #FBFBFF;
+	color: #3626A7;
+}
+nav, a {
+    display: flex;
+    color: #000000;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+header{
+	background-color: #FF331F;
+	padding: 5px 0;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+footer{
+    background-color: #FF331F;
+    padding: 5px;
+    align-items: center;        
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.logo {
+    margin: 20px 20px auto;
+	width: 150px;
+	height: 200px;
+    border-radius: 9px;
+}
+
+.city-logo{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.footer-logo{
+    padding : 20px 10px 10px 20px ;
+    width: 150px;
+    height: 200px;
+}
+
+h1,h2{
+    font-family: 'Antonio', sans-serif;
+    padding: 20px;
+}
+section{
+    text-align: center;    
+}
+
+div{
+    text-align: center;
+    background-color: #FBFBFF;
+    border: 1px solid #3626A7;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main{
+    display: block;
+}
+
+
+.main-links li:first-child{
+    display: block;
+}
+
+.main-links li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.footer-links{
+    list-style: none;
+    padding: 0;
+}
+
+.banner-join{
+    grid-column: 1/5;
+    border: none;
+}
+
+.hover:hover{
+    box-shadow: none;
+}
