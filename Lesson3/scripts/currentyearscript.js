@@ -1,3 +1,2 @@
-let yearDate = new Date().getFullYear();
-let footer = document.querySelector("footer");
-footer.innerHTML += yearDate;
+let Date = new Date();
+document.getElementById("currentYear").textContent = date.getFullYear();
