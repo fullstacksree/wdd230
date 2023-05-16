@@ -1,2 +1,2 @@
-let Date = new Date();
+let date = new Date();
 document.getElementById("currentYear").textContent = date.getFullYear();
