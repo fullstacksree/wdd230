@@ -13,6 +13,7 @@ main, header, footer, section, nav, a{
 nav a:hover {
 	background-color: #FBFBFF;
 	color: #3626A7;
+    
 }
 nav, a {
     display: flex;
@@ -31,6 +32,11 @@ header{
 	margin: 0 auto;
     border-radius: 20px;
     font-size: 18px;
+}
+
+#header-date {
+    background-color: #000000;
+    color: #FBFBFF;       
 }
 
 header{
@@ -90,7 +96,41 @@ main{
     display: block;
 }
 
+.Spotlight{
+    grid-column: 4/4;
+    grid-row: 1/4;
+    border-radius: 10px
+}
+.Spotlight div{
+    height: 31%;
+}
 
+.s3 {
+    display: none;
+}
+
+.Join {
+    display: none;
+}
+.heroimg {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+.eventimg{
+    width: 95%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+.weatherimg{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    margin: 5px 2px 5px 2px;
+}
 .main-links li:first-child{
     display: block;
 }

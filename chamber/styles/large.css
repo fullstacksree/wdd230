@@ -66,29 +66,48 @@ span{
 .Join{
     grid-column: 1/2;
     grid-row: 3/3;
-    border-radius: 10px
+    border-radius: 10px;
+    display: block;
 }
 
 .Hero{
     grid-column: 2/4;
     grid-row: 1/3;
     height: auto;
-    border-radius: 10px
+    border-radius: 10px;
+}
+.heroimg {
+    margin: 10px;
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px; 
+}
+.eventimg{
+    width: 95%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
 }
 .News{
     grid-column: 2/4;
     grid-row: 3/4;
-    border-radius: 10px
+    border-radius: 10px;
 }
 .Spotlight{
     grid-column: 4/4;
     grid-row: 1/4;
-    border-radius: 10px
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .Spotlight div{
     height: 31%;
 }
 
+.s3 {
+    display: block;
+}
 span {
 	display: flex;
     flex-direction: row;

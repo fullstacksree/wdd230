@@ -8,8 +8,7 @@ main {
 
 .Hero{
     grid-column: 1/3;
-    grid-row: 1/2;
-    
+    grid-row: 1/2;    
 }
 
 .News{
@@ -18,15 +17,18 @@ main {
 }
 
 .Spotlight{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column: 1/3;
     grid-row: 3/4;
 }
 .Spotlight div{
-    height: 28%;
+    height: auto;
 }
 .Join{
     grid-column: 1/3;
     grid-row: 4/5;
+    display: block;
 }
 
 .Event{
