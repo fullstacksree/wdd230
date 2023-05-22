@@ -4,7 +4,7 @@ let currentDate = document.querySelector(".current-date");
 
 let date = new Date();
 
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(date);
+const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(date);
 
 currentDate.innerHTML += fulldate;
 
