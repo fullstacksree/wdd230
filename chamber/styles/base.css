@@ -101,6 +101,7 @@ main{
     grid-row: 1/4;
     border-radius: 10px
 }
+
 .Spotlight div{
     height: 31%;
 }
@@ -119,18 +120,64 @@ main{
     border-radius: 10px;
     object-fit: cover; 
 }
-.eventimg{
-    width: 95%;
-    height: 50%;
+.Hero {
+    position:relative;
+}
+.Hero h2 {
+    position: absolute;
+    z-index: 1;
+}
+.Hero h3 {
+    position: absolute;
+    border-style: groove;
     border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    -webkit-text-fill-color: #FBFBFF;
+    background-color:#FF331F;
+    margin-top: 200px;
+    margin-left: 20px;
+    z-index: 4;
+}
+.eventimg{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
     margin: 5px 5px 5px 5px;
 }
+.Event {
+    position: relative;
+}
+.Event h2 {
+    position: absolute;
+    z-index: 1;
+    background-color: #FF331F;
+    -webkit-text-fill-color: #FBFBFF;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
 .weatherimg{
     border-radius: 10px;
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    margin: 5px 2px 5px 2px;
+    margin: 2px 2px px px;
 }
+.Weather {
+    position:relative;
+}
+.Weather h2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 5px;
+    -webkit-text-fill-color:#FBFBFF;
+    background-color: #FF331F;
+    border-radius: 10px;
+}
+
 .main-links li:first-child{
     display: block;
 }

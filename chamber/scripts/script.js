@@ -24,18 +24,10 @@ const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.main-links')
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-let days = [
-    'Sunday', 
-    'Monday', 
-    'Tuesday', 
-    'Wednesday', 
-    'Thursday', 
-    'Friday', 
-    'Saturday'
-  ];
+let days = date.getDay();    
  
 let banner = "";
-if (days[date.getDay()] == "Monday" || days[date.getDay() == "Tuesday"]) {
+if (days === 1 || days === 3) {
     banner = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 } else {
     banner = "";
