@@ -115,10 +115,9 @@ main{
 }
 .heroimg {
     margin: auto;
-    width: 100%;
-    height: 100%;
     border-radius: 10px;
     object-fit: cover; 
+    position: relative;
 }
 .Hero {
     position:relative;
@@ -134,7 +133,7 @@ main{
     padding: 5px 5px 5px 5px;
     -webkit-text-fill-color: #FBFBFF;
     background-color:#FF331F;
-    margin-top: 200px;
+    margin-top: 120px;
     margin-left: 20px;
     z-index: 4;
 }
@@ -160,22 +159,20 @@ main{
 
 .weatherimg{
     border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 2px 2px px px;
+      
 }
 .Weather {
     position:relative;
+    background-color: #3626A7;
 }
 .Weather h2 {
     position: absolute;
     z-index: 1;
     margin-left: 10px;
     margin-top: 5px;
-    -webkit-text-fill-color:#FBFBFF;
-    background-color: #FF331F;
     border-radius: 10px;
+    text-align: center;
+    color:#FBFBFF;
 }
 
 .main-links li:first-child{

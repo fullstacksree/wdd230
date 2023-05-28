@@ -39,13 +39,23 @@
     </header>
     
     <main>
-        <div class ="Hero"><h2>Welcome to Vizag Chamber of Commerce</h2>
-            <h3>Meet us to improve your business network</h3>        
-        <img class ="heroimg" src="images/heroimg.jpg" alt="summer camp for startups"></div>
+        <div class ="Hero">
+            <h2>Welcome to Vizag Chamber of Commerce</h2>
+            <h3>Meet us to improve your business network</h3></div>
+            <picture class="heroimg">
+                <source media="(min-width: 800px)" srcset="images/wdd230-orglarge.webp">
+                <source media="(min-width: 600px)" srcset="images/wdd230-orgmed.webp">        
+                <img src="images/wdd230-orglarge.webp=" srcset="wdd230-orgsmall.webp 300w, wdd230-orgmed.webp 600w, wdd230-orgsmall.webp 300w" sizes="50vw" alt="heroimg"></picture>
         <div class ="Event"><h2>Event</h2>
         <img class ="eventimg" src="images/event.jpg" alt="event"></div>
-        <div class ="Weather"><h2>Weather</h2>
-            <img class ="weatherimg" src="images/weather.jpg" alt="weather"></div>
+        <div class ="Weather">
+            <img class ="weatherimg" src="images/Climate.png" alt="weather">
+            <h2>Weather</h2>
+            <p>Current: Sunny</p>
+            <p>Temperature:<span id="temp">30</span>°F</p>
+            <p>Humidity: 61%</p>
+            <p>Wind Speed: <span id="speed">20</span>kmph</p>
+            <p>Wind Chill: <span id="windchill">N/A</span>°F</p></div>
         <div class = "News"><h2>News Release</h2>
         <p> Infosys was started their new branch in Vizag on 07-May-2023, providing good opportunities to local eligible graduates.</p> <p>Patra BPO India Pvt Ltd has announced a recuritment drive for Vizag location. </p>
         </div>
@@ -55,7 +65,7 @@
             <div class="s3"><h2>Spotlight 3</h2></div>
         </div>
         <div class ="Join"><h2>Join</h2>
-        <h3>Join us for a Seminary on Building Business Networking</h3></div>
+        <h3><a href="#" title="Join Us">Join us for Building Business Networking</a></h3></div>
     </main>
     <footer>
         <img class="footer-logo" src="images/Colorlogowithbackground.png" alt="logo img" width="200" height="200">
@@ -71,6 +81,7 @@
 
             </div>
     </footer>
-    <script src="scripts/script.js"></script>    
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>       
 </body>
 </html>

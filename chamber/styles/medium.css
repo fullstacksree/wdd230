@@ -28,8 +28,7 @@ main {
 .Join{
     grid-column: 1/3;
     grid-row: 4/5;
-    display: block;
-    background-color:aqua;    
+    display: block;         
 }
 
 .Event{
