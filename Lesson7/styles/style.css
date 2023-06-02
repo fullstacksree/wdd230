@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+body img[data-src] {
+    filter: blur(3px);
+}
+  
+body img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
