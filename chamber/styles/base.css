@@ -230,15 +230,17 @@ main.discover picture img{
     -webkit-transition: 1s linear;
     transition: 1s linear;
 }
+
+/* Discovery Page CSS */
 .discover-heading {
     background-color: #EEEE;
     text-align: center;
     padding: 1.5rem;
+    display: block;
 }
 .greeting {
     padding-bottom: 1rem;
 }
-
 /* Discovery Media Card */
 .media-card {
     width: 100%;
