@@ -110,15 +110,16 @@ span{
 }
 .heroimg {
     margin: 10px;
-    position: relative;
-    border-radius: 10px; 
+    position: absolute;
+    border-radius: 10px;
+    object-fit: cover; 
 }
 
-.Hero h2 {
+.hero h2 {
     position: absolute;
     z-index: 1;
 }
-.Hero h3 {
+.hero h3 {
     position: absolute;
     border-style: groove;
     border-radius: 10px;
@@ -184,39 +185,18 @@ footer{
     grid-row: 3/3;
 }
 
-.main-2{
-    max-width: 960px;
+/* Discovery Page */
+#discover {
     display: grid;
-    grid-template-columns: repeat( 4, 1fr);
-    grid-template-rows: repeat( 2, 1fr );
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
-
-.image-one{
-    grid-column: 1/2;
-    grid-row: 1/2;
+.media-card {
+    width: 100%;
+    transition: ease-in-out 0.3s;;
+    transform: scale(0.9);
 }
-
-.image-two{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.image-three{
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.image-four{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.image-five{
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-
-.hover:hover{
-    box-shadow: 0 0 50px #333;
+.media-card:hover {
+    transform: scale(1.02);
 }
 }
