@@ -6,7 +6,7 @@ img{
 }
 
 main, header, footer, section, nav, a{
-    max-width: 960px;
+    max-width: 1200px;
     max-height: min-content;
     margin: 0 auto;
     font-family: 'Playfair', sans-serif;
@@ -41,7 +41,10 @@ header{
     background-color: #000000;
     color: #FBFBFF;       
 }
-
+.current-date{
+    grid-column: 1/5;
+    grid-row: 3/3;
+}
 header{
     display: grid;
     grid-template-columns: repeat( 3, 1fr);
@@ -257,4 +260,93 @@ main.discover picture img{
 }
 .media-btn:hover {
     background-color: gray;
+}
+/* -------Join Page-------- */
+#join-form {
+    padding: 1rem 1rem;
+}
+#join-form h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 1rem;
+}
+label.top {
+    display: block;
+    padding-top: 1rem;
+    font-family: 'Arial';
+    color: #14213D;
+    font-weight: bolder;
+}
+form label.sbs {
+    display: block;
+    font-size: 1.5rem;
+    padding: .75rem 0;
+    color: #3626A7;
+    font-weight: bolder;
+}
+legend {
+    font-family: 'Calibri';
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 .5rem;
+}
+legend p {
+    text-align: justify;
+}
+form fieldset {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 15px;
+    border: #999 1px solid;
+}
+form label.top input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    padding: .50rem 0;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+form input.submitBtn {
+    width: 90%;
+    max-width: 15rem;
+    padding: 1rem;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF331F;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+}
+.Join-heading {
+    background-color: #EEEE;
+    text-align: center;
+}
+.text {
+    text-align: justify;
+}
+form input.submitBtn:hover {
+    background-color: #3626A7;
+}
+/* -------Validation------- */
+form label.top input:required {
+    border-color: #FF331F;
+}
+form label.top input:required:valid {
+    border-color: #888;
+}
+/*------Thank you page------*/
+#thankyou {
+    text-align: center;
+}
+#thankyou h2{
+    font-family: 'Calibri';
+    padding: 2rem;
+}
+#thankyou p {
+    padding: 0 2rem 4rem 2rem;
 }

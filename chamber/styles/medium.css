@@ -48,4 +48,13 @@ main {
 .media-card:hover {
     transform: scale(1.02);
 }
+/*------Join Page--------*/
+form input.submitBtn {
+    margin-left: 2%;
+}
+/*------Thank you page-------*/
+#thankyou {
+    height: 50vh;
+    padding-top: 5%;
+}
 }

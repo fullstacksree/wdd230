@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment for Chamber Home Page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Vizag Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/Colorlogowithbackground.png" alt="logo img" width="200" height="200">
+        <h1>Vizag Chamber of Commerce</h1>
+        <nav class = "navigation">
+            <ul class = "main-links">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#" title="Directory">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <span>
+            <img class="icon" src="images/facebook.png" alt="facebook icon">
+            <img class="icon" src="images/linkedin.png" alt="linkedin icon"> 
+        </span>
+        <span id="header-date"></span>
+        <div class="current-date"></div>
+        <div class="banner-join"></div>
+    </header>
+    <div class="Join-heading">
+        <h2>Vizag Chamber of Commerce Application Form</h2></div>
+            
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Choose Membership</legend>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit"> NON-PROFIT | Free</label>
+                <p class="text"> Unique to non-profit organizations, expand your reach by joining the Vizag Chamber Commerce
+                    to gain access to top community-focused businesses.</p>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> BRONZE | $399 | Startups</label>
+                <p class="text"> Bronze memberships are recommended for businesses with 1-2 employees 
+                    and are intended for startups and new businesses. Bronze membership is a great stepping 
+                    stone to business success. Join to begin building name recognition and rapport with other 
+                    business leaders in the community.</p>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> SILVER | $699 | Marketing</label>
+                <p class="text"> Silver Memberships are recommended for businesses with 2-5 
+                    employees and are for established businesses looking to grow. This level is ideal 
+                    for a business wanting to gain exposure and build community awareness. Silver membership 
+                    offers all of the benefits of the Bronze level, plus additional marketing tools and benefits. 
+                    Silver membership includes 4 Luncheon tickets.</p>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> GOLD | $999 | Leaders</label>
+                <P class="text"> Gold memberships are for established businesses working to become leaders in the District. Increase visibility - this level includes additional marketing 
+                    opportunities. Gold membership includes 8 Luncheon tickets.</P>
+            </fieldset>
+
+            <fieldset>
+                <legend>Enter Contact Information</legend>
+                <p><i>Fields with red border are required.</i></p>
+                <label class="top">First Name: <input type="text" name="fname" required></label>
+                <label class="top">Last Name: <input type="text" name="lname" required></label>
+                <label class="top">Business Position: <input type="text" name="position" pattern="[a-zA-Z0-9- ]{1,7}" id="businessPosition"></label>
+                <label class="top">E-mail: <input type="email" name="email" placeholder="E-mail" required></label>
+                <label class="top">Cellphone no.: <input type="tel" name="phone" required></label>
+                <label class="top">Business  Name: <input type="text" name="businessName" required></label>
+                <label class="top">Business  Description: <textarea placeholder="Type here" name="description"></textarea></label>
+            </fieldset>
+            
+            <input type="submit" value="Join The Chamber" class="submitBtn">
+        </form>
+    
+
+    <footer>
+        <img class="footer-logo" src="images/Colorlogowithbackground.png" alt="logo img" width="200" height="200">
+        <h1 class="footer-h1">Vizag Chamber of Commerce</h1>        
+        <p class ="contact-info">Contact Us: Email: helpdesk@vizagchambercommerce.com 
+        Contact: +91 123-456-7890</p>
+        <nav class = map-link>
+            <ul class ="footer-links">
+            <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.235522307857!2d83.33389117598806!3d17.73353839273943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3944a7da9e8883%3A0x581a890d4371491e!2sLawsons%20Bay%20Colony%2C%20Pedda%20Waltair%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530017!5e0!3m2!1sen!2sin!4v1683945192864!5m2!1sen!2sin" width="80" height="100" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>📍Map of Vizag</li>
+            </ul>
+        </nav>
+            <div class ="footer-content">&copy;
+            </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/regex.js"></script>       
+</body>
+</html>

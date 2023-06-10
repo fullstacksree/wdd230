@@ -72,14 +72,13 @@ span{
     z-index: 1;
 }
 .weatherimg{
-    position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 .Weather h2 {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    margin-left: 50px;
-    margin-top: 50px;    
+    margin-left: 0px;
+    margin-top: 0px;    
     border-radius: 10px;
     text-align: left;
 }
@@ -113,9 +112,6 @@ span{
     position: relative;
 }
 .heroimg {
-    margin: 10px;
-    position: absolute;
-    border-radius: 10px;
     object-fit: cover; 
 }
 
@@ -159,14 +155,24 @@ span{
 .s3 {
     display: block;
 }
-span {
-	display: flex;
-    flex-direction: row;
-	align-items: center;
-    margin-right: 1rem;
-    border-radius: 10px
-}
 
+/*-----Join Page------*/
+form  {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
+    padding: 0 4rem;
+}
+form input.submitBtn {
+   grid-column: 2;
+}
+.Join-heading {
+    background-color: #EEEE;
+    text-align: center;
+}
+.text {
+    text-align: justify;
+}
 footer{
     display: grid;
     align-items: center;    
@@ -203,4 +209,5 @@ footer{
 .media-card:hover {
     transform: scale(1.02);
 }
+
 }
