@@ -18,7 +18,9 @@ async function getProphetData() {
       let h2 = document.createElement('h2');
       let birthDate = document.createElement('p');
       let birthPlace = document.createElement('p');
-      let children = document.createElement('p');
+      let numofchildren = document.createElement('p')
+      let length = document.createElement('p');
+      let death = document.createElement('p');
       let hrline = document.createElement('hr');
       let portrait = document.createElement('img');
       let order = ``
@@ -34,9 +36,15 @@ async function getProphetData() {
       }
 
       // Build the h2 content out to show the prophet's full name - finish the template string
+      
+
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthDate.textContent = `Birth Date: ${prophet.birthdate}`;
-      birthPlace.textContent = `Birth Place: ${prophet.birthplace}`;
+      birthDate.textContent = `Birth Date: ${prophet.birthdate}`
+      birthPlace.textContent = `Birth Place: ${prophet.birthplace}`
+      numofchildren.textContent = `children: ${prophet.numofchildren}`
+      length.textContent = `Prophet Years: ${prophet.length}`
+      death.textContent = `Death Date: ${prophet.death}`
+      
       
       // Build the image portrait by setting all the relevant attribute
       portrait.setAttribute('src', prophet.imageurl);
@@ -49,6 +57,9 @@ async function getProphetData() {
       card.appendChild(h2);
       card.appendChild(birthDate);
       card.appendChild(birthPlace);
+      card.appendChild(numofchildren);
+      card.appendChild(length);
+      card.appendChild(death);
       card.appendChild(hrline);
       card.appendChild(portrait);
   

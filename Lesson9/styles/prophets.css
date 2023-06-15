@@ -63,7 +63,7 @@ body {
     align-items: center;
   }
   section > p {
-    min-height: 60px;
+    min-height: 10px;
   }
   
   img {
