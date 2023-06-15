@@ -21,7 +21,8 @@ body {
     color: #000;
     border-bottom: 1px solid #eee;
     text-shadow: 0 0 15px #777;
-    width: 60%;
+    width: 100%;
+    text-align: center;
   }
   
   h2 {
