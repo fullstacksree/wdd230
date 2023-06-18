@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 1200px)
 {
 
 main {
@@ -209,5 +209,11 @@ footer{
 .media-card:hover {
     transform: scale(1.02);
 }
-
+h1.directoryH {
+    font-size: 2.5rem;
+  }
 }
+
+
+
+

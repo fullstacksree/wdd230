@@ -24,7 +24,7 @@
                 <li><a class="ham" href="#">Menu</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="directory">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#" title="Contact">Contact</a></li>
             </ul>
@@ -36,13 +36,16 @@
         <span id="header-date"></span>
         <div class="current-date"></div>
         <div class="banner-join"></div>
-    </header>
-    <main id="thankyou">
-        <h2>Your application has been submitted successfully!!! <img src="images/tickmark-xxl.png" alt="tickmark" width="20"></h2>
-        <p>Thanks to Join Us! <br>
-            One of the team member will approach you regarding your submitted application. <br> 
-            We are looking forward to meet you!!</p>
-   </main>   
+    </header>    
+        <h1>Directory</h1>        
+    <main>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+
+        <div id="data" class="grid"></div>
+    </main>
     <footer>
         <img class="footer-logo" src="images/Colorlogowithbackground.png" alt="logo img" width="200" height="200">
         <h1 class="footer-h1">Vizag Chamber of Commerce</h1>        
@@ -54,9 +57,10 @@
             </ul>
         </nav>
             <div class ="footer-content">&copy;
+
             </div>
     </footer>
     <script src="scripts/script.js"></script>
-          
+    <script src="scripts/directory.js"></script>       
 </body>
 </html>

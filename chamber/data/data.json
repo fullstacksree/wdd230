@@ -1,0 +1,67 @@
+{
+    "businesses": [
+        {
+            "name": "Project Sales Corporation",
+            "address": "28, Founta Plaza, Suryabagh, Visakhapatnam AP 530020",
+            "phone": "891 256 4393",
+            "website": "https://pschandsfree.com/",
+            "images": "images/PSC.webp"
+        },
+        {
+            "name": "Shiftwave",
+            "address": "Near Timpany School, CBM Compound, Visakhapatnam AP 530003",
+            "phone": "939 134 2993",
+            "website": "https://www.shiftwave.com/",
+            "images": "images/shiftwave.webp"
+        },
+        {
+            "name": "CMR Shopping Mall",
+            "address": "36, 1, Resapuvanipalem, Maddilapalem, Visakhapatnam AP 530013",
+            "phone": "406-755-8400",
+            "website": "https://cmrmall.com/",
+            "images": "images/cmr.webp"
+        },
+        {
+            "name": "Novotel",
+            "address": "Beach Road, Visakhapatnam AP 530002",
+            "phone": "891-282-2222",
+            "website": "https://all.accor.com/",
+            "images": "images/novotel.webp"
+        },
+        {
+            "name": "Radisson Blu Resort",
+            "address": "Rushikonda Beach Road, Visakhapatnam, AP 530045",
+            "phone": "891-667-7666",
+            "website": "https://www.radissonhotels.com/",
+            "images": "images/Radisson.webp"
+        },
+        {
+            "name": "PATRA INDIA BPO SERVICES PRIVATE LIMITED",
+            "address": "D.No.37-5-88/1, Varun Point NH5, Muralinagar, Visakhapatnam, AP 530007",
+            "phone": "939-615-1727",
+            "website": "https://www.patracorp.com/",
+            "images": "images/pure-west.webp"
+        },
+        {
+            "name": "VISAKHAPATNAM PORT AUTHORITY",
+            "address": "Port Area, Visakhapatnam, AP 530035",
+            "phone": "891-256-5023",
+            "website": "https://www.vizagport.com/",
+            "images": "images/seaport.webp"
+        },
+        {
+            "name": "HAPAG-LLOYD INDIA PVT LTD",
+            "address": "2nd Floor, F.No.205, Dutt Island, Siripuram, Visakhapatnam, AP 530003",
+            "phone": "891-273-9823",
+            "website": "https://www.hapag-lloyd.com/",
+            "images": "images/hapag.webp"
+        },
+        {
+            "name": "MAERSK",
+            "address": "Qubexpro business center, 4th Floor, Facor Layout, Visakhapatnam, AP 530003",
+            "phone": "1800-419-9121",
+            "website": "https://www.maersk.com/",
+            "images": "images/maersk.webp"
+        }
+    ]
+}
