@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather API Activity">
     <link rel="stylesheet" href="style.css">
-    <title>Weather API</title>
+    <title>Weather API Activity</title>
 </head>
 <body>
+    <main>
     <h1>OpenWeatherMap.org API Test</h1>
-<p>The current temperature in Visakhapatnam, IN is <span id="current-temp"></span> &deg;F</p>
+    <div class="display">
+        <h2>Current Temperature</h2>
+        <p class="box">
+The current temperature in Fairbanks, Alaska is <span id="current-temp"></span>&deg;F</p>
 <h2>Current Condition Icon</h2>
-<figure>
-  <img src="" alt="" id="weather-icon" />
+<figure class="box">
+  <img src="" alt="weather" id="weather-icon" />
   <figcaption></figcaption>
 </figure>
+
+</div>
+</main>
+<script src="scripts/weatherapi.js"></script>
     
 </body>
 </html>
