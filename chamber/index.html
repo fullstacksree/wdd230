@@ -49,20 +49,20 @@
         <div class ="Event"><h2>Event</h2>
         <img class ="eventimg" src="images/event.jpg" alt="event"></div>
         <div class ="Weather"><h2>Weather</h2>
-            <img class ="weatherimg" src="images/Climate.png" alt="weather">
-            <section class="weatherInfo"><h2>weatherInfo</h2>
-            <p>Current: Sunny</p>
-            <p>Temperature:<span id="temp">30</span>°F</p>
-            <p>Humidity: 61%</p>
-            <p>Wind Speed: <span id="speed">20</span>kmph</p>
-            <p>Wind Chill: <span id="windchill">N/A</span>°F</p></section></div>
+            <img id="weather" src="images/Climate.webp" alt="Weather icon">
+            <p id="description"></p>
+            <hr><hr>
+            <p>Visakhapatnam, India</p>
+            <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+            <p>Wind Speed: <span id="windspeed">?</span>kmph</p>
+            <p>Wind Chill: <span id="windchill">?</span>&deg; F</p></div>
         <div class = "News"><h2>News Release</h2>
         <p> Infosys was started their new branch in Vizag on 07-May-2023, providing good opportunities to local eligible graduates.</p> <p>Patra BPO India Pvt Ltd has announced a recuritment drive for Vizag location. </p>
         </div>
         <div class = "Spotlight">
             <div class="s1"><h2>Spotlight 1</h2></div>
             <div class="s2"><h2>Spotlight 2</h2></div>
-            <div class="s3"><h2>Spotlight 3</h2></div>
+            <div class="s3"><h2>Spotlight 3</h2></div>            
         </div>
         <div class ="Join"><h2>Join</h2>
         <h3><a href="#" title="Join Us">Join us for Building Business Networking</a></h3></div>
@@ -82,6 +82,7 @@
             </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>       
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>      
 </body>
 </html>

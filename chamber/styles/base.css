@@ -172,16 +172,16 @@ main{
 }
 .Weather {
     position:relative;
-    background-color: #3626A7;
+    background-color:lightgrey;
+    align-items: center;
 }
 .Weather h2 {
     position: absolute;
     z-index: 1;
     margin-left: 10px;
     margin-top: 5px;
-    border-radius: 10px;
-    text-align: center;
-    color:#FBFBFF;
+    border-radius: 10px;    
+    color:#0A0908;
 }
 
 .main-links li:first-child{
@@ -353,7 +353,7 @@ form label.top input:required:valid {
 }
 
 /* directory */
-h1.directoryH {
+/*h1.directoryH {
     text-align: center;
     margin-bottom: 1rem;
     border-bottom: solid 2px #224b0c;
@@ -379,7 +379,7 @@ h1.directoryH {
   }
   
   /*Grid*/
-  div.grid {
+  /*div.grid {
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -404,7 +404,7 @@ h1.directoryH {
   }
   
   /*List*/
-  div.list {
+  /*div.list {
     max-width: 1000px;
     margin: 1rem auto;
   }
@@ -422,4 +422,94 @@ h1.directoryH {
     width: 50px;
     height: auto;
     justify-self: center;
+  }*/
+/*  Directory ----------------------*/
+/* Directory Page Stuff */
+.directory-main{
+    width: 100%;
   }
+  
+  #directory-selector{
+    width: 100%;
+    text-align: center;
+  }
+  
+  #directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px black solid;
+  }
+  
+  #directory-selector button.active{
+    background-color: #053C5E;
+    color: white;
+  }
+  
+  /* Cards view */
+  
+  .directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    
+  }
+  
+  .directory-cards section{
+    text-align: center;    
+    border: 5px solid black;    
+    width: 300px;
+    background-color: #DB4C40;
+    color: white;
+    padding: 1rem;
+    margin: .51rem;
+  }
+  
+  .directory-cards .gold-member{
+    /* box-shadow: inset 1rem 1rem gold; */
+    border: 7px solid gold;
+    background-color: #053C5E;
+    
+  }
+  .directory-cards a{
+    color:white;
+  }
+  
+  /* List View */
+  
+  .directory-list{    
+    display: grid;
+    justify-items: center;   
+    padding: 1rem; 
+    font-size: 1em;   
+  }
+  
+  .directory-list section img{
+    display: none;
+    
+  }
+  
+  .directory-list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .directory-list section:nth-child(odd) {
+    background-color: grey;
+    
+  }
+  
+  .directory-list section:nth-child(even) {
+    background-color: white;
+    
+  }
+  .directory-list .gold-member::after{
+    content: "(Gold Member)";
+  }
+   .directory data .directory-list:nth-last-child(){
+    display: none;
+  } 

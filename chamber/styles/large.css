@@ -9,8 +9,11 @@ main {
 
 header{
     display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    /*grid-template-rows: (2, 1fr);*/
 }
 
 .main-links{
@@ -32,8 +35,8 @@ header{
 }
 
 h1{
-    grid-column: 2/5;
-    grid-row: 1/2;
+    grid-column: 2/4;
+    /*grid-row: 1/2;*/
 }
 
 nav, a{
@@ -80,12 +83,12 @@ span{
     margin-left: 0px;
     margin-top: 0px;    
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
 }
 .Weather p{
     text-indent: 10%;
     text-align: left;
-    color: #FBFBFF;
+    color: #0A0908;
 }
 .weatherInfo{
     bottom: 30%;
@@ -140,6 +143,10 @@ span{
     grid-column: 2/4;
     grid-row: 3/4;
     border-radius: 10px;
+    background-color: #E3D26F;
+}
+.News p{
+    color:#070502;
 }
 .Spotlight{
     grid-column: 4/4;
@@ -213,6 +220,14 @@ h1.directoryH {
     font-size: 2.5rem;
   }
 }
+.directory-list {    
+    display: block;
+    justify-items: center;   
+    padding: 1rem; 
+    font-size: 1.3em;  
+}
+
+
 
 
 
