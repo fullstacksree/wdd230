@@ -202,6 +202,10 @@ footer{
     grid-column: 1/5;
     grid-row: 3/3;
 }
+.thankyou {
+    display: grid;
+    align-items: center;
+}
 
 /* Discovery Page */
 #discover {
@@ -244,6 +248,30 @@ h1.directoryH {
     padding: 1rem; 
     font-size: 1.3em;  
 }
+.contact-form {
+    display: flex;
+    align-items: center;
+  }
+  .contact-form .address {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .contact-form .form {
+    flex: 2;
+  }
+  .contact-form .form input[type="text"],
+  .contact-form .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-form .form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
 
 
 
