@@ -64,9 +64,9 @@ body {
   }
     
   img {
-    width: 340px;
+    width: 300px;
     box-shadow: 0 0 30px #777;
-    height: 440px;
+    height: 420px;
     border: 1px solid #333;
     border-radius: 5px;
     margin-top: 10px;

@@ -55,11 +55,11 @@ const displayProphets = (prophets) => {
 		let portrait = document.createElement("img");
 
 		h2.textContent = `${prophet.name} ${prophet.lastname}`;
-		date.innerHTML = `<span class="label">Birth:</span> ${prophet.birthdate}`;
-		place.innerHTML = `<span class="label">Place:</span> ${prophet.birthplace}`;
-		num.innerHTML = `<span class="label">Children:</span> ${prophet.numofchildren}`;
+		date.innerHTML = `<span class="label">Date of Birth:</span> ${prophet.birthdate}`;
+		place.innerHTML = `<span class="label">Place of Birth:</span> ${prophet.birthplace}`;
+		num.innerHTML = `<span class="label">No. of Children:</span> ${prophet.numofchildren}`;
 		length.innerHTML = `<span class="label">Prophet Years:</span> ${prophet.length}`;
-		death.innerHTML = `<span class="label">Death:</span> ${prophet.death}`;
+		death.innerHTML = `<span class="label">Date of Death:</span> ${prophet.death}`;
 		ageatdeath.innerHTML = `<span class="label">Age:</span> ${getAgeAtDeathInYears(
 			prophet.birthdate,
 			prophet.death

@@ -26,7 +26,7 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="#" title="Contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <span>
@@ -37,9 +37,9 @@
         <div class="current-date"></div>
         <div class="banner-join"></div>
     </header>
-    <div class="Join-heading">
-        <h2>Vizag Chamber of Commerce Application Form</h2></div>
-            
+    <main class="Join-heading">
+        <h2>Vizag Chamber of Commerce Application Form</h2></main>
+                    
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Choose Membership</legend>
@@ -61,10 +61,11 @@
                 <label class="top">First Name: <input type="text" name="fname" required></label>
                 <label class="top">Last Name: <input type="text" name="lname" required></label>
                 <label class="top">Business Position: <input type="text" name="position" pattern="[a-zA-Z0-9- ]{1,7}" id="businessPosition"></label>
-                <label class="top">E-mail: <input type="email" name="email" placeholder="E-mail" required></label>
-                <label class="top">Cellphone no.: <input type="tel" name="phone" required></label>
+                <label class="top">E-mail: <input type="email" name="email" placeholder="support@gmail.com" required></label>
+                <label class="top">Cellphone no.: <input type="tel" name="phone" placeholder="+00 012 345 6789"></label>
                 <label class="top">Business  Name: <input type="text" name="businessName" required></label>
                 <label class="top">Business  Description: <textarea placeholder="Type here" name="description"></textarea></label>
+                <input type="hidden" id="formLoadTime" name="current" value="">
             </fieldset>
             
             <input type="submit" value="Join The Chamber" class="submitBtn">
