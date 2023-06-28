@@ -323,9 +323,9 @@ form input.submitBtn {
     max-width: 15rem;
     padding: 1rem;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: #ffec1ffc;
-    color: white;
-    font-family: 'Montserrat';
+    background-color: #888;
+    color: #000000;
+    font-family: 'Roboto';
     font-weight: bold;
     border: none;
     border-radius: 10px;
