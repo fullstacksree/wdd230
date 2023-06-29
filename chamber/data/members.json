@@ -1,7 +1,7 @@
 {
     "businesses": [
         {
-            "name": "Project Sales Corporation",
+            "name": "PROJECT SALES CORPORATION",
             "address": "28, Founta Plaza, Suryabagh, Visakhapatnam AP 530020",
             "phone": "891 256 4393",
             "website": "https://pschandsfree.com/",
@@ -9,7 +9,7 @@
             "membershipLevel": "gold"
         },
         {
-            "name": "Shiftwave",
+            "name": "SHIFTWAVE",
             "address": "Near Timpany School, CBM Compound, Visakhapatnam AP 530003",
             "phone": "939 134 2993",
             "website": "https://www.shiftwave.com/",
@@ -17,7 +17,7 @@
             "membershipLevel": "silver"
         },
         {
-            "name": "CMR Shopping Mall",
+            "name": "CMR SHOPPING MALL",
             "address": "36, 1, Resapuvanipalem, Maddilapalem, Visakhapatnam AP 530013",
             "phone": "406-755-8400",
             "website": "https://cmrmall.com/",
@@ -25,7 +25,7 @@
             "membershipLevel": "gold"
         },
         {
-            "name": "Novotel",
+            "name": "NOVOTEL",
             "address": "Beach Road, Visakhapatnam AP 530002",
             "phone": "891-282-2222",
             "website": "https://all.accor.com/",
@@ -33,7 +33,7 @@
             "membershipLevel": "gold"
         },
         {
-            "name": "Radisson Blu Resort",
+            "name": "RADISSON BLU RESORT",
             "address": "Rushikonda Beach Road, Visakhapatnam, AP 530045",
             "phone": "891-667-7666",
             "website": "https://www.radissonhotels.com/",
@@ -73,7 +73,7 @@
             "membershipLevel": "gold"
         },
         {
-            "name":"* All Buisnesses with a blue background and gold borders In the Grid View are Gold Members of the chamber. In the List view these member will simply have (Gold Member) displayed after their buisness name",
+            "name":"All Buisnesses with a blue background and golden borders in Grid View are Gold Members of the chamber. In list view members will simply have (Gold Member) displayed after their buisness name",
             "address":"",
             "phone":"",
             "website":"",

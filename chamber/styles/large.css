@@ -1,8 +1,10 @@
 @media only screen and (min-width: 1200px)
 {
+.index {
+    display: grid;
+}
 
 main {
-    display: grid;
     grid-template-columns: repeat( 4, 1fr);
     grid-template-rows: repeat( 3, 1fr );
 }
@@ -12,8 +14,7 @@ header{
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     justify-items: center;
-    text-align: center;
-    /*grid-template-rows: (2, 1fr);*/
+    text-align: center;    
 }
 
 .main-links{
@@ -164,17 +165,12 @@ span{
 }
 
 /*-----Join Page------*/
-form  {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 2rem;
-    padding: 0 4rem;
-}
+
 form input.submitBtn {
    grid-column: 2;
 }
 .Join-heading {
-    background-color: #EEEE;
+    background-color:#E3D50F;
     text-align: center;
     justify-content: center;
 }
@@ -221,58 +217,55 @@ footer{
 .media-card:hover {
     transform: scale(1.02);
 }
-.discover-heading {
-    width: 600px;
-    height: 150px;
-    padding: 20px;
-    border: 2px solid black;
-}
-.content-box {
-    width: 600px;
-    height: 300px;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: #E3D26F;
-    font-size: 1.5rem;
-    text-align: left;
 
-}
 /* Directory Page */
-h1.directoryH {
-    font-size: 2.5rem;
-  }
-}
-.directory-list {    
+.list {    
     display: block;
     justify-items: center;   
     padding: 1rem; 
-    font-size: 1.3em;  
+    font-size: 1.3em;
+    background-color: #E3D50F;  
 }
+/* Contact */
 .contact-form {
-    display: flex;
-    align-items: center;
-  }
-  .contact-form .address {
-    flex: 1;
-    margin-right: 20px;
-  }
-  .contact-form .form {
-    flex: 2;
-  }
-  .contact-form .form input[type="text"],
-  .contact-form .form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  .contact-form .form button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-
+      display: flex;
+      align-items: center;
+      background-color: #E3D50F;
+    }
+    .contact-form .address {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .contact-form .form {
+      flex: 2;
+      background-color: aquamarine;
+    }
+    .contact-form .form input[type="text"],
+    .contact-form .form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .contact-form .form button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        }
+        
+        fieldset p {
+        text-align: left;
+        }
+        
+        label.top {
+        text-align: left;
+        }
+    }
 
 
 

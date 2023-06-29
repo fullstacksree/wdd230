@@ -1,7 +1,10 @@
 @media only screen and (min-width: 600px)
 {
-main {
+.index {
     display: grid;
+}
+main {
+    /*display: grid;*/
     grid-template-columns: repeat( 3, 1fr);
     grid-template-rows: repeat( 5, 1fr );
 }
