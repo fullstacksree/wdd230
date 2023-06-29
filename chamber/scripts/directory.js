@@ -29,7 +29,7 @@ const displayBusinesses = (businesses) => {
     card.innerHTML = `<p>${business.name}</p>
                       <p>${business.address}</p>
                       <p>${business.phone}</p>
-                      <p><img src="${business.images}" alt="${business.alt_text}"></p>
+                      <p><img src="${business.images}" alt="${business.name}"></p>
                       <a href="${business.website}" target="_blank">${business.website}</a>`;
     if (business.membershipLevel=='gold'){
       card.classList.add("gold-member");
