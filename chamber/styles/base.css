@@ -296,7 +296,7 @@ form label.sbs {
 }
 legend {
     font-family: 'Calibri';
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     text-align: center;
     font-weight: bolder;
     padding: 0 .5rem;
@@ -363,7 +363,7 @@ form label.top input:required:valid {
     padding: 0 2rem 4rem 2rem;
 }
 
-/* Directory Page */
+/* Directory Page Stuff */
 .member-main{
     width: 100%;
   }
@@ -391,7 +391,7 @@ form label.top input:required:valid {
   
   .member-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
     
   }
