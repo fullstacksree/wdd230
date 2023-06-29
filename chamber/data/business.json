@@ -71,14 +71,7 @@
             "website": "https://www.maersk.com/",
             "images": "images/maersk.webp",
             "membershipLevel": "gold"
-        },
-        {
-            "name":"All Buisnesses with a blue background and golden borders in Grid View are Gold Members of the chamber. In list view members will simply have (Gold Member) displayed after their buisness name",
-            "address":"",
-            "phone":"",
-            "website":"",
-            "images":"",
-            "membershipLevel":"gold"            
         }
+        
     ]
 }
