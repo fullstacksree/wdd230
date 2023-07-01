@@ -66,6 +66,11 @@ footer{
 	height: 200px;
     border-radius: 9px;
 }
+.social {
+    display: block;
+    background-color: #FF331F;
+    border-color: transparent;
+}
 
 .city-logo{
     padding-left: 10px;
@@ -238,6 +243,10 @@ main.discover picture img{
     padding-bottom: 1rem;
 }
 /* Discovery Media Card */
+.discover-heading, .content-box h2 {
+    background-color: #E3D26F;
+}
+
 .media-card {
     width: 100%;
     overflow: visible;
@@ -364,7 +373,7 @@ form label.top input:required:valid {
     margin: .5rem;
     border-radius: 5px;
     background-color: grey;
-    border: 1px black solid;
+    border: 1px silver solid;
   }
   
   #member-selector button.active{
@@ -383,7 +392,7 @@ form label.top input:required:valid {
   
   .member-cards section{
     text-align: center;    
-    border: 5px solid black;    
+    border: 8px solid silver;    
     width: 300px;
     background-color: #3626A7;
     color: #FBFBFF;
@@ -392,7 +401,6 @@ form label.top input:required:valid {
   }
   
   .member-cards .gold-member{
-    /* box-shadow: inset 1rem 1rem gold; */
     border: 7px solid gold;
     background-color: #3626A7;
     
