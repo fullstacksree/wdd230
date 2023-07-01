@@ -33,7 +33,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 18px;
 }
 
@@ -52,14 +52,12 @@ header{
 }
 
 footer{
-    background-color: #FF331F;
-    padding: 5px;
-    align-items: center;        
-}
-footer{
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
+    background-color: #FF331F;
+    padding: 5px;
+    align-items: center;           
 }
 
 .logo {
@@ -106,7 +104,8 @@ main{
 .Spotlight{
     grid-column: 4/4;
     grid-row: 1/4;
-    border-radius: 10px
+    border-radius: 10px;
+    background-color: lightgrey;
 }
 
 .Spotlight div{
@@ -125,11 +124,12 @@ main{
     margin: auto;
     border-radius: 10px;
     position: relative;
-    object-fit: cover;    
+    object-fit: fill;    
 }
 
 .Hero {
     position:relative;
+    background-color: lightgrey;
 }
 .Hero h2 {
     position: absolute;
@@ -146,23 +146,15 @@ main{
     margin-left: 20px;
     z-index: 4;
 }
-.eventimg{
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-    margin: 5px 5px 5px 5px;
-}
+
 .Event {
     position: relative;
+    background-color: lightgrey;
 }
 .Event h2 {
-    position: absolute;
-    z-index: 1;
     background-color: #FF331F;
     -webkit-text-fill-color: #FBFBFF;
-    margin-left: 20px;
+    margin: 20px;
     border-radius: 10px;
 }
 
@@ -239,7 +231,7 @@ main.discover picture img{
 .discover-heading {
     background-color: #EEEE;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     display: block;
 }
 .greeting {
@@ -247,7 +239,7 @@ main.discover picture img{
 }
 /* Discovery Media Card */
 .media-card {
-    width: auto;
+    width: 100%;
     overflow: visible;
     box-shadow: 2px 2px 5px 2px #888;
     margin-bottom: 3rem;
@@ -262,15 +254,6 @@ main.discover picture img{
 .media-btn:hover {
     background-color: gray;
 }
-.content-box {
-    width: auto;
-    height: 230px;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: #E3D26F;
-    font-size: 1.2rem;
-    text-align: center;
-}
 /* -------Join Page-------- */
 #join-form {
     padding: 1rem 1rem;
@@ -279,12 +262,13 @@ main.discover picture img{
     text-align: center;
     font-family: 'Roboto';
     padding: 1rem;
+    background-color: #E3D26F;
 }
 label.top {
     display: block;
     padding-top: 1rem;
     font-family: 'Arial';
-    color: #14213D;
+    color: #3626A7;
     font-weight: bolder;
 }
 form label.sbs {
@@ -309,7 +293,7 @@ form fieldset {
     margin: 2rem 0;
     padding: 1rem;
     border-radius: 15px;
-    border: #999 1px solid;
+    border: lightgrey 1px solid;
     background-color: #FBFBFF;
 }
 form label.top input, textarea {
@@ -317,7 +301,7 @@ form label.top input, textarea {
     width: 100%;
     max-width: 20rem;
     padding: .50rem 0;
-    border: 1px solid #888;
+    border: 1px solid lightgray;
     border-radius: 3px;
 }
 form input.submitBtn {
@@ -325,7 +309,7 @@ form input.submitBtn {
     max-width: 15rem;
     padding: 1rem;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: #888;
+    background-color: lightgray;
     color: #000000;
     font-family: 'Roboto';
     font-weight: bold;
@@ -363,7 +347,8 @@ form label.top input:required:valid {
     padding: 0 2rem 4rem 2rem;
 }
 
-/* Directory Page Stuff */
+/* directory */
+
 .member-main{
     width: 100%;
   }
@@ -378,7 +363,7 @@ form label.top input:required:valid {
     padding: 1rem;
     margin: .5rem;
     border-radius: 5px;
-    background-color: #FBFBFF;
+    background-color: grey;
     border: 1px black solid;
   }
   
@@ -398,16 +383,17 @@ form label.top input:required:valid {
   
   .member-cards section{
     text-align: center;    
-    border: 2px solid black;    
-    width: 340px;
+    border: 5px solid black;    
+    width: 300px;
     background-color: #3626A7;
-    color: white;
+    color: #FBFBFF;
     padding: 1rem;
     margin: .50rem;
   }
   
   .member-cards .gold-member{
-    border: 5px solid gold;
+    /* box-shadow: inset 1rem 1rem gold; */
+    border: 7px solid gold;
     background-color: #3626A7;
     
   }
@@ -438,25 +424,23 @@ form label.top input:required:valid {
   }
   
   .list section:nth-child(odd) {
-    background-color: lightblue;
+    background-color: grey;
     
   }
   
   .list section:nth-child(even) {
-    background-color: darkblue;
-    color: white;
-    
+    background-color: lightgray;
   }
+
   .list .gold-member::after{
-    content: "(Gold Member)";
+    content: "(Golden Member)";
   }
-   .member-data, .list:nth-last-child(){
+   .member-data .list:nth-last-child(){
     display: none;
-  } 
-
- /*   Contact  */
-
- form {
+  }
+  
+  /* Contact */
+  form {
     display: flex;
     flex-direction: column;
     }
@@ -468,6 +452,3 @@ form label.top input:required:valid {
     label.top {
     text-align: left;
 }
-   
-  
-  
