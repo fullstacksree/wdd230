@@ -53,15 +53,7 @@ main {
     grid-column: 2/3;
     grid-row: 5/5;
 }
-.media-card {
-    width: 75%;
-    transition: ease-in-out 0.3s;
-    transform: scale(0.9);
-    text-align: center;
-}
-.media-card:hover {
-    transform: scale(1.02);
-}
+
 
 /*----Discovery Page-----*/
 .media-card {
@@ -69,9 +61,6 @@ main {
     transition: ease-in-out 0.3s;;
     transform: scale(0.9);
     text-align: center;
-}
-.media-card:hover {
-    transform: scale(1.02);
 }
 
 /*------Join Page--------*/

@@ -206,9 +206,6 @@ footer{
     transition: ease-in-out 0.3s;;
     transform: scale(0.9);
 }
-.media-card:hover {
-    transform: scale(1.02);
-}
 
 /* Directory Page */
 h1 {
