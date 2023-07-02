@@ -17,10 +17,11 @@ nav{
 	flex-direction: column;
     background-color: #FF331F;
     border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
 }
 nav, a {
-    flex: 1 1 auto;
-	display: block;
+    display: flex;
 	color: #000000;
 	text-align: center;
 	padding: 15px;
@@ -31,7 +32,7 @@ nav, a {
 
 nav a:hover {
 	background-color: #3626A7;
-	color: #000000;
+	color: #FBFBFF;
 }
 
 h1, footer{
