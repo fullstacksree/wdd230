@@ -121,7 +121,7 @@ span{
     border-style: groove;
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
-    -webkit-text-fill-color: #FBFBFF;
+    color: #FBFBFF;
     background-color:#FF331F;
     margin-top: 120px;
     margin-left: 20px;
@@ -157,14 +157,14 @@ span{
 }
 
 /*-----Join Page------*/
-
 form input.submitBtn {
    grid-column: 2;
 }
 .Join-heading {
-    background-color: #E3D50F;
+    background-color: #3626A3;
     text-align: center;
     justify-content: center;
+    color: #FBFBFF
 }
 .text {
     text-align: justify;
@@ -217,13 +217,14 @@ h1 {
     justify-items: center;   
     padding: 1rem; 
     font-size: 1.3em;
-    background-color: #E3D50F;  
+    background-color: #000000;
+    border-radius: 30px;  
 }
 /* Contact */
 .contact-form {
       display: flex;
       align-items: center;
-      background-color: #E3D50F;
+      background-color: #3626A3;
     }
     .contact-form .address {
       flex: 1;
@@ -231,7 +232,8 @@ h1 {
     }
     .contact-form .form {
       flex: 2;
-      background-color: aquamarine;
+      background-color: #FF331F;
+      color:#FBFBFF;
     }
     .contact-form .form input[type="text"],
     .contact-form .form textarea {

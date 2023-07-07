@@ -1,11 +1,12 @@
-body{
+body {
     background-color: #FBFBFF;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-main, header, footer, section, nav, a{
+main, header, footer, section, nav, a {
     max-width: 1200px;
     max-height: min-content;
     margin: 0 auto;
@@ -15,9 +16,9 @@ main, header, footer, section, nav, a{
 
 nav a:hover {
 	background-color: #FBFBFF;
-	color: #3626A7;
-    
+	color: #3626A7;    
 }
+
 nav, a {
     display: flex;
     color: #000000;
@@ -41,17 +42,19 @@ header{
     background-color: #000000;
     color: #FBFBFF;       
 }
-.current-date{
+
+.current-date {
     grid-column: 1/5;
     grid-row: 3/3;
 }
-header{
+
+header {
     display: grid;
     grid-template-columns: repeat( 3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -66,35 +69,37 @@ footer{
 	height: 200px;
     border-radius: 9px;
 }
+
 .social {
     display: block;
     background-color: #FF331F;
     border-color: transparent;
 }
 
-.city-logo{
+.city-logo {
     padding-left: 10px;
     padding-right: 10px;
     width: 150px;
     height: auto;
 }
 
-.footer-logo{
+.footer-logo {
     padding : 20px 10px 10px 20px ;
     width: 150px;
     height: 200px;
 }
 
-h1,h2{
+h1,h2 {
     font-family: 'Antonio', sans-serif;
     padding: 20px;
     text-align: center;
 }
-section{
+
+section {
     text-align: center;    
 }
 
-div{
+div {
     text-align: center;
     background-color: #FBFBFF;
     border: 1px solid #3626A7;
@@ -102,18 +107,18 @@ div{
     border-radius: 5px;
 }
 
-main{
+main {
     display: block;
 }
 
-.Spotlight{
+.Spotlight {
     grid-column: 4/4;
     grid-row: 1/4;
     border-radius: 10px;
     background-color: lightgrey;
 }
 
-.Spotlight div{
+.Spotlight div {
     height: 31%;
 }
 
@@ -136,10 +141,12 @@ main{
     position:relative;
     background-color: lightgrey;
 }
+
 .Hero h2 {
     position: absolute;
     z-index: 1;
 }
+
 .Hero h3 {
     position: absolute;
     border-style: groove;
@@ -156,6 +163,7 @@ main{
     position: relative;
     background-color: lightgrey;
 }
+
 .Event h2 {
     background-color: #FF331F;
     -webkit-text-fill-color: #FBFBFF;
@@ -163,15 +171,16 @@ main{
     border-radius: 10px;
 }
 
-.weatherimg{
-    border-radius: 10px;
-      
+.weatherimg {
+    border-radius: 10px;      
 }
+
 .Weather {
     position:relative;
     background-color:lightgrey;
     align-items: center;
 }
+
 .Weather h2 {
     position: absolute;
     z-index: 1;
@@ -181,7 +190,7 @@ main{
     color:#0A0908;
 }
 
-.main-links li:first-child{
+.main-links li:first-child {
     display: block;
 }
 
@@ -210,41 +219,47 @@ main{
     padding: 0;
 }
 
-.banner-join{
+.banner-join {
     grid-column: 1/5;
     border: none;
 }
 
-.hover:hover{
+.hover:hover {
     box-shadow: none;
 }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
 main.discover picture img[data-src] {
     opacity: 0;
     visibility: hidden;
 }
-main.discover picture img{
+
+main.discover picture img {
     -webkit-transition: 1s linear;
     transition: 1s linear;
 }
 
 /* Discovery Page CSS */
 .discover-heading {
-    background-color: #EEEE;
+    background-color: #FBFBFF;
     text-align: center;
     padding: 1.5rem;
     display: block;
 }
+
 .greeting {
     padding-bottom: 1rem;
 }
+
 /* Discovery Media Card */
 .discover-heading, .content-box h2 {
-    background-color: #E3D26F;
+    background-color: #3626A7;
+    color:#FBFBFF;
 }
 
 .media-card {
@@ -253,26 +268,32 @@ main.discover picture img{
     box-shadow: 2px 2px 5px 2px #888;
     margin-bottom: 3rem;
 }
+
 .discover-article {
     padding: 2rem;
     text-align: center;
 }
+
 .discover-article p {
     padding-top: 1rem;
 }
+
 .media-btn:hover {
-    background-color: gray;
+    background-color:#FBFBFF;
 }
+
 /* -------Join Page-------- */
 #join-form {
     padding: 1rem 1rem;
 }
+
 #join-form h2 {
     text-align: center;
     font-family: 'Roboto';
     padding: 1rem;
-    background-color: #E3D26F;
+    background-color: #3626A7;
 }
+
 label.top {
     display: block;
     padding-top: 1rem;
@@ -280,6 +301,7 @@ label.top {
     color: #3626A7;
     font-weight: bolder;
 }
+
 form label.sbs {
     display: block;
     font-size: 1.5rem;
@@ -287,17 +309,21 @@ form label.sbs {
     color: #3626A7;
     font-weight: bolder;
 }
+
 legend {
     font-family: 'Calibri';
     font-size: 1.25rem;
     text-align: center;
     font-weight: bolder;
     padding: 0 .5rem;
-    background-color: #E3D26F;
+    background-color: #000000;
+    color: #FBFBFF;
 }
+
 legend p {
     text-align: justify;
 }
+
 form fieldset {
     margin: 2rem 0;
     padding: 1rem;
@@ -305,6 +331,7 @@ form fieldset {
     border: lightgrey 1px solid;
     background-color: #FBFBFF;
 }
+
 form label.top input, textarea {
     display: block;
     width: 100%;
@@ -313,6 +340,7 @@ form label.top input, textarea {
     border: 1px solid lightgray;
     border-radius: 3px;
 }
+
 form input.submitBtn {
     width: 90%;
     max-width: 15rem;
@@ -327,70 +355,80 @@ form input.submitBtn {
     margin-bottom: 2rem;
     margin-left: 5%;
 }
+
 .Join-heading {
     background-color: #EEEE;
     text-align: center;
 }
+
 .text {
     text-align: justify;
 }
+
 form input.submitBtn:hover {
     background-color: #3626A7;
 }
+
 /* -------Validation------- */
 form label.top input:required {
     border-color: #FF331F;
 }
+
 form label.top input:required:valid {
     border-color: #888;
 }
+
 /*------Thank you page------*/
 #thankyou {
     text-align: center;
 }
+
 #thankyou h2{
     font-family: 'Calibri';
     padding: 2rem;
 }
+
 #thankyou p {
     padding: 0 2rem 4rem 2rem;
 }
 
 /* directory */
 
-.member-main{
+.member-main {
     width: 100%;
-  }
+}
   
-  #member-selector{
+#member-selector {
     width: auto;
     text-align: center;
-    background-color: #E3D26F;
-  }
+    border-color: transparent;
+}
   
-  #member-selector button{
+#member-selector button {
     padding: 1rem;
     margin: .5rem;
     border-radius: 5px;
-    background-color: grey;
+    background-color: #FF331F;
     border: 1px silver solid;
-  }
+    color: #FBFBFF
+}
   
-  #member-selector button.active{
+#member-selector button.active{
     background-color: #3626A7;
     color: #FBFBFF;
-  }
+}
   
   /* Cards view */
   
-  .member-cards{
+.member-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
-    
-  }
+    background-color: #000000;
+    border-radius: 30px;    
+}
   
-  .member-cards section{
+.member-cards section {
     text-align: center;    
     border: 8px solid silver;    
     width: 300px;
@@ -398,65 +436,64 @@ form label.top input:required:valid {
     color: #FBFBFF;
     padding: 1rem;
     margin: .50rem;
-  }
+}
   
-  .member-cards .gold-member{
+.member-cards .gold-member {
     border: 7px solid gold;
-    background-color: #3626A7;
-    
-  }
-  .member-cards a{
+    background-color: #3626A7;    
+}
+
+.member-cards a {
     color: #E3D26F;
-  }
+}
   
-  /* List View */
+/* List View */
   
-  .list{    
+.list {    
     display: grid;
     justify-items: center;   
     padding: 1rem; 
     font-size: 1em;   
-  }
+}
   
-  .list section img{
+.list section img {
     display: none;
-    
-  }
+}
   
-  .list section {
+.list section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-  }
+}
   
-  .list section:nth-child(odd) {
-    background-color: grey;
-    
-  }
+.list section:nth-child(odd) {
+    background-color: #3626A7;
+    color: #FBFBFF;
+}
   
-  .list section:nth-child(even) {
-    background-color: lightgray;
-  }
+.list section:nth-child(even) {
+    background-color: #FBFBFF;
+}
 
-  .list .gold-member::after{
+.list .gold-member::after {
     content: "(Golden Member)";
-  }
-   .member-data .list:nth-last-child(){
+}
+
+.member-data .list:nth-last-child(){
     display: none;
-  }
+}
   
-  /* Contact */
-  form {
+/* Contact */
+form {
     display: flex;
     flex-direction: column;
-    }
+}
     
-    fieldset p {
+fieldset p {
     text-align: left;
-    }
+}
     
-    label.top {
+label.top {
     text-align: left;
 }

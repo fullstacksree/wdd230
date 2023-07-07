@@ -64,22 +64,20 @@ body {
   }
     
   img {
-    width: 300px;
+    width: 280px;
     box-shadow: 0 0 30px #777;
-    height: 420px;
+    height: 380px;
     border: 1px solid #333;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
   }
 
-  input,
-select,
-textarea,
-button {
-	padding: 0.5rem;
-	margin: 0.5rem;
-  border-radius: 5px;;
+  input, select, textarea, button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;;
 }
 
 .stats {
