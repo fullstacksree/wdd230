@@ -132,9 +132,8 @@ main {
 
 .heroimg {
     margin: auto;
-    border-radius: 10px;
-    position: relative;
-    object-fit: fill;    
+    position: relative;  
+    object-fit: cover;          
 }
 
 .Hero {
@@ -152,9 +151,9 @@ main {
     border-style: groove;
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
-    -webkit-text-fill-color: #FBFBFF;
     background-color:#FF331F;
-    margin-top: 120px;
+    -webkit-text-fill-color: #FBFBFF;
+    margin-top: 10px;
     margin-left: 20px;
     z-index: 4;
 }
@@ -257,6 +256,10 @@ main.discover picture img {
 }
 
 /* Discovery Media Card */
+.discover-heading, .content-box h2 {
+    background-color: #3626A7;
+    color:#FBFBFF;
+}
 
 .media-card {
     width: 100%;
@@ -316,6 +319,10 @@ legend {
     color: #FBFBFF;
 }
 
+legend p {
+    text-align: justify;
+}
+
 form fieldset {
     margin: 2rem 0;
     padding: 1rem;
@@ -329,7 +336,7 @@ form label.top input, textarea {
     width: 100%;
     max-width: 20rem;
     padding: .50rem 0;
-    border: 1px solid darkgray;
+    border: 1px solid lightgray;
     border-radius: 3px;
 }
 
@@ -338,8 +345,8 @@ form input.submitBtn {
     max-width: 15rem;
     padding: 1rem;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: #000000;
-    color: #FBFBFF;
+    background-color: lightgray;
+    color: #000000;
     font-family: 'Roboto';
     font-weight: bold;
     border: none;
@@ -358,7 +365,7 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-    background-color: #FF331F;
+    background-color: #3626A7;
 }
 
 /* -------Validation------- */
@@ -415,7 +422,7 @@ form label.top input:required:valid {
 .member-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: justify;
+    justify-items: center;
     background-color: #000000;
     border-radius: 30px;    
 }
@@ -423,6 +430,7 @@ form label.top input:required:valid {
 .member-cards section {
     text-align: center;    
     border: 8px solid silver;    
+    width: 300px;
     background-color: #3626A7;
     color: #FBFBFF;
     padding: 1rem;

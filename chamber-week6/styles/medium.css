@@ -10,7 +10,7 @@ main {
 
 .Hero{
     grid-column: 1/3;
-    grid-row: 1/2;    
+    grid-row: 1/2;     
 }
 
 .News{
@@ -42,6 +42,7 @@ main {
     position: relative;
     border-style: double;
     background-color: #ff331f;
+    -webkit-text-fill-color: #FBFBFF;
     z-index: 1;
 }
 
@@ -67,7 +68,6 @@ main {
 form input.submitBtn {
     margin-left: 2%;
 }
-
 /*------Thank you page-------*/
 #thankyou {
     height: 50vh;

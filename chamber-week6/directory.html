@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment for Chamber Contact Page">
+    <meta name="description" content="Assignment for Chamber Directory Page">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Contact Form</title>
+    <title>Vizag Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.png">
 </head>
 <body>
@@ -24,7 +24,7 @@
                 <li><a class="ham" href="#">Menu</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="directory">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -32,44 +32,19 @@
         <span id="social">
             <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
             <a href="https://in.linkedin.com" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a>                        
-        </span>
+    </span>
         <span id="header-date"></span>
         <div class="current-date"></div>
         <div class="banner-join"></div>
-    </header>
-    <main>    
-        <div class="contact-form">
-          <div class="address">
-            <h2>Contact Address</h2>
-            <p><h3>Vizag Chamber of Commerce</h3>
-                <p>123 Main Street, Visakhapatnam, India, Postal Code: 530001</p>
-                <p>email: helpdesk@vizagchamberofcommerce.com</p>
-                <p>contact: +91 123-456-7890</p>
-                <p>Office hours: 09:00 AM to 05:00 PM</p>
-                <hr>
-                <p>for Membership Enquiries: membership@vizagchamberofcommerce.com</p>
-          </div>
-          <div class="forms">
-            <h2>Contact Form</h2>
-            <form>
-                <fieldset>
-                    <legend>Enter Contact Information</legend>
-                    <p><i>Fields with red border are required.</i></p>
-                    <label class="top">First Name: <input type="text" name="fname" required></label>
-                    <label class="top">Last Name: <input type="text" name="lname" required></label>
-                    <label class="top">Business Position: <input type="text" name="position" pattern="[a-zA-Z0-9- ]{1,7}" id="businessPosition"></label>
-                    <label class="top">E-mail: <input type="email" name="email" placeholder="support@gmail.com" required></label>
-                    <label class="top">Cellphone no.: <input type="tel" name="phone" placeholder="+00 012 345 6789"></label>
-                    <label class="top">Business  Name: <input type="text" name="businessName" required></label>
-                    <label class="top">Business  Description: <textarea placeholder="Type here" name="description"></textarea></label>
-                    <input type="hidden" id="formLoadTime" name="current" value="">
-                </fieldset>
-                
-                <input type="submit" value="Submit" class="submitBtn">
-            </form>
-          </div>
-        </div>
-        </main>          
+    </header>    
+        <h1>Directory</h1>        
+        <main class="member-main">
+            <div id="member-selector">
+              <button id="grid" class="active"> ⏹️GRID</button>
+              <button id="list"> 📄LIST</button></div>
+            <div id="member-data" class="member-cards">
+            </div>
+    </main>
     <footer>
         <img class="footer-logo" src="images/vcclogo.webp" alt="logo img" width="200" height="200">
         <h1 class="footer-h1">Vizag Chamber of Commerce</h1>        
@@ -85,6 +60,6 @@
             </div>
     </footer>
     <script src="scripts/script.js"></script>
-          
+    <script src="scripts/directory.js"></script>       
 </body>
 </html>

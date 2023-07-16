@@ -104,7 +104,7 @@ span{
     z-index: 1;
 }
 
-.Hero{
+.Hero{    
     grid-column: 2/4;
     grid-row: 1/3;
     border-radius: 10px;
@@ -112,21 +112,22 @@ span{
     background-color: lightgrey;
 }
 
-.hero h2 {
+.Hero h2 {
     position: absolute;
     z-index: 1;
 }
-.hero h3 {
+.Hero h3 {
     position: absolute;
     border-style: groove;
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
-    color: #FBFBFF;
+    -webkit-text-fill-color: #FBFBFF;
     background-color:#FF331F;
-    margin-top: 120px;
+    margin-top: 20px;
     margin-left: 20px;
     z-index: 4;
 }
+
 
 .News{
     grid-column: 2/4;
@@ -149,7 +150,7 @@ span{
     background-color: lightgrey;
 }
 .Spotlight div{
-    height:fit-content;
+    height:auto;
 }
 
 .s3 {
@@ -161,11 +162,10 @@ form input.submitBtn {
    grid-column: 2;
 }
 .Join-heading {
-    background-color: #FBFBFF;
+    background-color: #3626A3;
     text-align: center;
     justify-content: center;
-    color: #000000;
-    font-size: larger;
+    color: #FBFBFF
 }
 .text {
     text-align: justify;
@@ -197,27 +197,10 @@ footer{
 }
 
 /* Discovery Page */
-.discover-heading {
-    background-color: #FBFBFF;
-    text-align: center;
-    padding: 1.5rem;
-    display: block;
-}
-
-.greeting {
-    padding-bottom: 1rem;
-}
-
-.discover-heading, .content-box h2 {
-    background-color: #FBFBFF;
-    color:#3626A3;
-}
-
 #discover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    border: transparent;
 }
 .media-card {
     width: 100%;
