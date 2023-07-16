@@ -400,14 +400,14 @@ form label.top input:required:valid {
     padding: 1rem;
     margin: .5rem;
     border-radius: 5px;
-    background-color: #FF331F;
+    background-color: #FBFBFF;
     border: 1px silver solid;
-    color: #FBFBFF
+    color: #000000;
 }
   
 #member-selector button.active{
     background-color: #3626A7;
-    color: #FBFBFF;
+    color:#FBFBFF;
 }
   
   /* Cards view */
