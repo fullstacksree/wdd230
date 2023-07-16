@@ -401,7 +401,7 @@ form label.top input:required:valid {
     margin: .5rem;
     border-radius: 5px;
     background-color: #FBFBFF;
-    border: 1px silver solid;
+    border: 2px silver solid;
     color: #000000;
 }
   
